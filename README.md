@@ -1,5 +1,9 @@
 # ELEGOO Translation Tool by Czajo
 
+**🌐 Language / Język:** [🇵🇱 Polski (Polish)](README.md) | [🇬🇧 English](README_EN.md)
+
+---
+
 Narzędzie do tłumaczenia interfejsu drukarek 3D ELEGOO Centauri Carbon. Umożliwia pobieranie, edycję, tłumaczenie i wgrywanie plików tłumaczeń zarówno dla interfejsu ekranu dotykowego (UI), jak i interfejsu webowego drukarki.
 
 ## 📋 Spis treści
@@ -622,6 +626,47 @@ Narzędzie będzie działać bez kolorów, ale z mniejszą czytelnością.
 
 ## 🔬 Informacje techniczne
 
+### Generowanie pliku BIN
+
+**Jak działa konwersja CSV → BIN:**
+
+1. **Automatyczne przeliczanie:** Wszystkie wartości są obliczane automatycznie na podstawie zawartości pliku CSV:
+   - Liczba języków: automatycznie wykrywana z nagłówka CSV
+   - Liczba stringów: automatycznie wykrywana z liczby wierszy danych
+   - Długość każdego tekstu: obliczana automatycznie po kodowaniu UTF-8
+   - Offsety w pliku: obliczane dynamicznie na podstawie rzeczywistej długości tekstów
+
+2. **Długość tekstów:**
+   - ✅ **Nie ma ograniczenia długości** - teksty mogą być dowolnie długie
+   - ✅ **Wszystko jest dynamiczne** - plik BIN dostosowuje się do długości tłumaczeń
+   - ✅ **UTF-8 kodowanie** - obsługuje wszystkie znaki Unicode (polskie znaki, emoji, itp.)
+   - ✅ **Automatyczne obliczanie** - długość każdego tekstu jest mierzona po kodowaniu UTF-8
+
+3. **Proces generowania:**
+   - Każdy tekst z CSV jest kodowany jako UTF-8
+   - Do każdego tekstu dodawany jest null byte (`\x00`) na końcu
+   - Długość tekstu (w bajtach) jest zapisywana w tabeli języka
+   - Offset (pozycja) tekstu w pliku jest obliczany automatycznie
+   - Wszystkie teksty są zapisywane sekwencyjnie w "String Blob"
+   - Całkowity rozmiar pliku jest obliczany automatycznie
+
+4. **Przykład:**
+   ```
+   Tekst: "Witaj" (5 znaków)
+   → UTF-8: 57 69 74 61 6A (5 bajtów)
+   → Z null byte: 57 69 74 61 6A 00 (6 bajtów)
+   → Długość zapisana w tabeli: 6 bajtów
+   ```
+
+5. **Co jest przeliczane automatycznie:**
+   - ✅ Długość każdego tekstu (w bajtach UTF-8)
+   - ✅ Pozycja (offset) każdego tekstu w pliku
+   - ✅ Pozycje tabel języków
+   - ✅ Całkowity rozmiar pliku BIN
+   - ✅ Liczba języków i stringów
+
+**Uwaga:** Nie musisz martwić się o długość tłumaczeń - narzędzie automatycznie obsługuje wszystkie obliczenia. Możesz używać tekstów o dowolnej długości, nawet jeśli są znacznie dłuższe niż oryginały.
+
 ### Format pliku BIN
 
 Plik `translation.bin` ma następującą strukturę:
@@ -629,21 +674,22 @@ Plik `translation.bin` ma następującą strukturę:
 ```
 [Header - 15 bajtów]
 - Magic: 00 10 FD 12 (4 bajty)
-- Total size - 14 (4 bajty, little-endian)
+- Total size - 14 (4 bajty, little-endian) - obliczane automatycznie
 - Reserved: 00 00 (2 bajty)
 - Version: 01 (1 bajt)
-- Language count (1 bajt)
-- String count (2 bajty, little-endian)
+- Language count (1 bajt) - wykrywane z CSV
+- String count (2 bajty, little-endian) - wykrywane z CSV
 - Reserved: 00 (1 bajt)
 
 [Offset List]
-- 4 bajty na język (offset do tabeli języka)
+- 4 bajty na język (offset do tabeli języka) - obliczane automatycznie
 
 [Language Tables]
-- 8 bajtów na string (offset + długość)
+- 8 bajtów na string (offset + długość) - obliczane automatycznie dla każdego tekstu
 
 [String Blob]
 - UTF-8 stringi zakończone null byte
+- Długość każdego tekstu jest dynamiczna (bez ograniczeń)
 ```
 
 ### Format pliku CSV
