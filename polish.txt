@@ -1,0 +1,466 @@
+Przygotowanie
+Wentylator
+Prędkość druku
+Szalona
+Sport
+Zbalansowana
+Załaduj
+Wyładuj
+Wentylator pomocniczy
+Wentylator modelu
+Wentylator obudowy
+Cichy
+Normalny
+Szalony
+Lokalny
+Dysk USB
+Historia druku
+Ustawienia
+Sieć
+Informacje
+Kamera
+Kalibracja
+Nazwa pliku
+Czas rozpoczęcia
+Czas trwania
+Stan
+Importuj z dysku USB
+Usuń
+Fotografia poklatkowa
+Poziom
+Anuluj
+Drukuj
+warstwa
+Powrót do pozycji domowej...
+Podgrzewanie...
+Automatyczne poziomowanie
+Poważny błąd
+Drobny błąd
+Stół grzewczy nie nagrzał się zgodnie z oczekiwaniami.
+Proszę sprawdzić stół grzewczy i okablowanie.
+Proszę wrócić do pozycji domowej przed przesunięciem.
+Filament się kończy, proszę wymienić w odpowiednim czasie.
+Szczegóły
+Restart
+Potwierdź
+Wstecz
+Drukowanie zakończone!
+Czas druku
+Potwierdź
+Drukuj ponownie
+Zatrzymaj
+Pauza
+Przypomnienie
+Załaduj
+Wyładuj
+Zatrzymaj wytłaczanie
+Usuwanie plików...
+Kopiowanie na dysk USB...
+Wykryto nową wersję
+Obecna wersja
+Najnowsza wersja
+Nie przypominaj więcej
+Aktualizuj
+Aktualizowanie...
+Aktualizacja nie powiodła się, spróbuj ponownie.
+Aktualizacja zakończona
+Wybór języka
+Jasność
+Wyłącz ekran
+min
+Zawsze włączony
+Oświetlenie
+Czujnik filamentu
+Dźwięk klawiszy
+Tryb cichy
+Wznowienie po utracie zasilania
+Eksport logów
+Ustawienia strefy czasowej
+Sprawdź aktualizacje
+Przywróć ustawienia fabryczne
+Automatyczne poziomowanie
+Kalibracja PID
+Kształtowanie drgań wejściowych
+Samokontrola jednym kliknięciem
+Ta funkcja testuje automatyczne poziomowanie, kalibrację PID i kształtowanie drgań.
+Ta operacja uruchomi automatyczne poziomowanie. Kontynuować?
+Automatyczne poziomowanie...
+Zatrzymaj
+Zakończono
+Opcje kalibracji
+Zaznacz wszystko
+Kalibracja PID
+Start
+Samokontrola...
+Ustaw temperaturę docelową, następnie naciśnij Start, aby rozpocząć kalibrację
+Start
+Kalibracja wibracji...
+Wykrywanie czujnika...
+Kalibracja zakończona
+Czujnik prawidłowy
+Czujnik nieprawidłowy
+Kalibracja nie powiodła się
+Start
+Podgrzewanie
+Podgrzewanie zakończone
+Kalibracja PID dyszy...
+Kalibrowanie...
+Posiadasz już najnowszą wersję
+Powrót do pozycji domowej...
+Eksportowanie logów...
+Nie wykryto dysku USB
+Prędkości druku nie można zmienić w trybie cichym
+Wznów
+Oświetlenie modelu
+Światło górne
+Witamy w ELEGOO
+Upewnij się, że komora jest wolna od obcych przedmiotów, następnie kliknij "Potwierdź".
+Wstecz
+Samokontrola urządzenia
+Rozpocznij proces samokontroli
+1. Umieść stół roboczy prawidłowo, stroną A do góry.\n\n2. Proces potrwa około 30 minut.
+Start
+Nie dotykaj drukarki podczas samokontroli
+Nagrzewanie dyszy
+Nagrzewanie stołu grzewczego
+Wentylator chłodzenia radiatora
+Wentylator chłodzenia płyty głównej
+Kształtowanie drgań wejściowych
+Automatyczne poziomowanie
+Samokontrola zakończona!
+Nieprawidłowości w samokontroli
+Potwierdź
+Błąd
+Urządzenie
+Objętość robocza
+Numer seryjny
+Całkowity czas drukowania
+Producent
+Kontakt
+Pamięć
+UTC-11:00
+UTC-11:00
+UTC-10:00
+UTC-09:30
+UTC-09:00
+UTC-08:00
+UTC-07:00
+UTC-06:00
+UTC-05:00
+UTC-04:00
+UTC-03:30
+UTC-03:00
+UTC-02:00
+UTC-01:00
+UTC+00:00
+UTC+01:00
+UTC+02:00
+UTC+03:00
+UTC+03:30
+UTC+04:00
+UTC+04:30
+UTC+05:00
+UTC+05:30
+UTC+05:45
+UTC+06:00
+UTC+06:30
+UTC+07:00
+UTC+08:00
+UTC+09:00
+UTC+09:30
+UTC+10:00
+UTC+10:30
+UTC+11:00
+UTC+12:00
+UTC+12:45
+UTC+13:00
+UTC+14:00
+Lista wideo
+Wielokrotny wybór
+Eksportuj
+Czas trwania wideo
+Czas druku
+Obecna sieć
+Rozłączono
+Anuluj łączenie
+Zapomnij
+Upewnij się, że drukarka otrzymuje prawidłowe ustawienia druku.
+Upewnij się, że głowica drukująca działa prawidłowo.
+Zmniejsz linie warstw na powierzchni drukowanego modelu.
+Nieprawidłowość w odczycie termistora (NTC) stołu grzewczego.
+Nieprawidłowy termistor stołu grzewczego. Proszę sprawdzić termistor i okablowanie.
+Głowica drukująca nie nagrzała się zgodnie z oczekiwaniami.
+Nieprawidłowość w nagrzewaniu głowicy. Proszę sprawdzić głowicę i okablowanie.
+Nieprawidłowość w odczycie termistora (NTC) głowicy drukującej.
+Nieprawidłowy termistor głowicy. Proszę sprawdzić termistor i okablowanie.
+Za mało miejsca na dysku USB.
+Za mało miejsca na dysku USB. Proszę usunąć niektóre pliki.
+Nieprawidłowość w odczycie dysku USB
+Niewystarczająca przestrzeń w pamięci lokalnej
+Za mało pamięci lokalnej. Proszę usunąć niektóre pliki.
+Proszę wrócić do pozycji domowej przed przesunięciem.
+Powrót do pozycji domowej osi X nie powiódł się (nieprawidłowy silnik lub wyłącznik krańcowy)
+1. Nieprawidłowy wyłącznik krańcowy osi X. Proszę sprawdzić czujnik lub okablowanie. 2. Nieprawidłowy silnik osi X. Proszę sprawdzić silnik lub okablowanie.
+Powrót do pozycji domowej osi Y nie powiódł się (nieprawidłowy silnik lub wyłącznik krańcowy)
+1. Nieprawidłowy wyłącznik krańcowy osi Y. Proszę sprawdzić czujnik lub okablowanie. 2. Nieprawidłowy silnik osi Y. Proszę sprawdzić silnik lub okablowanie.
+Powrót do pozycji domowej osi Z nie powiódł się (nieprawidłowy silnik)
+Nieprawidłowy czujnik automatycznego poziomowania. Proszę sprawdzić czujnik lub okablowanie.
+Nieprawidłowy silnik osi Z. Proszę sprawdzić silnik lub okablowanie.
+Nieprawidłowy akcelerometr osi X
+Nieprawidłowy akcelerometr osi X. Proszę sprawdzić akcelerometr i okablowanie.
+Nieprawidłowy akcelerometr osi Y
+Nieprawidłowy akcelerometr osi Y. Proszę sprawdzić akcelerometr i okablowanie.
+Nieprawidłowy czujnik poziomowania
+Nieprawidłowość w poziomowaniu. Proszę sprawdzić czujnik poziomowania i okablowanie.
+Nieprawidłowość w wytłaczaniu
+Niska temperatura dyszy, trwa nagrzewanie
+Nieprawidłowość w ładowaniu
+Nieprawidłowy filament. Proszę załadować ponownie.
+Nieprawidłowy wentylator płyty głównej.
+Nieprawidłowy wentylator płyty głównej. Proszę sprawdzić wentylator i okablowanie.
+Nieprawidłowy wentylator chłodzenia radiatora
+Nieprawidłowy wentylator chłodzenia radiatora. Proszę sprawdzić wentylator i okablowanie.
+Nieprawidłowy wentylator modelu
+Nieprawidłowy wentylator modelu. Proszę sprawdzić wentylator i okablowanie.
+Importuj
+Proszę podgrzać przed załadowaniem lub wyładowaniem.
+Kopiowanie na dysk lokalny.
+Użyj klucza imbusowego, aby usunąć trzy śruby pokazane na obrazku.
+Ekstruder
+Dostosuj temperaturę druku w oparciu o zalecane ustawienia materiału podczas ładowania.
+Załaduj filament
+Chwyć filament
+Ładowanie zakończone
+Obetnij filament
+Obetnij filament ręcznie
+Wyładuj filament
+Wyładowanie zakończone
+Temperatura dyszy
+Tryb obcinania filamentu
+Automatyczne cięcie
+Ręczne cięcie
+Wskazówki
+Automatyczne cięcie
+Ręczne cięcie
+Ponów
+Proszę potwierdzić prawidłową instalację bloku automatycznego cięcia.
+Przesuń nóż głowicy drukującej, aby ręcznie obciąć filament, następnie kliknij "Potwierdź", aby wyładować.
+Kliknij "Zakończono", jeśli filament został wytłoczony. Jeśli nie, proszę pchnąć do przodu i kliknąć "Ponów".
+Wykryto przejście dyszy przez obszar niezdatny do druku.
+Zainstaluj blok automatycznego cięcia i wybierz "Automatyczne cięcie". Zakres cięcia wzdłuż krawędzi stołu grzewczego reprezentuje obszar niezdatny do druku. Jeśli musisz usunąć blok uderzeniowy, przełącz na "Ręczne cięcie". Aby załadować filament, ręcznie przesuń nóż głowicy, aby obciąć filament.
+1. Proszę sprawdzić czujnik i okablowanie. 2. Proszę sprawdzić silnik i okablowanie.
+Powyższy schemat przedstawia tryb "Automatycznego cięcia". Proszę potwierdzić prawidłową instalację bloku zderzaka (①) i śruby mocującej (②).
+Schemat: tryb "Ręcznego cięcia". W tym trybie nie jest potrzebny automatyczny blok cięcia. Proszę potwierdzić, że element maszyny odpowiada ilustracji.
+Wykryto obszar niezdatny do druku w zakresie cięcia dyszy. Proszę potwierdzić, czy blok automatycznego cięcia został usunięty. Możesz to ustawić w "Ustawienia - Tryb obcinania filamentu".
+Wykryto niezakończone zadanie druku, kliknij "Wznów", aby kontynuować drukowanie.
+Wznów
+Zatrzymywanie
+Pauzowanie
+BRAK
+Aktualizuj lokalny firmware
+Sieć rozłączona! Nie można wykonać aktualizacji OTA.
+Przygotowywana jest aktualizacja.
+Przygotowywanie…
+Pobieranie…
+Rozpakowywanie…
+Aktualizacja nie powiodła się!
+Aktualizowanie...
+Ponowne uruchamianie…
+Aktualizacja wersji nie powiodła się z powodu słabego sygnału sieci. Proszę sprawdzić stan połączenia sieciowego i spróbować ponownie.
+Słaby sygnał sieci. Przekroczono limit czasu połączenia.
+Poziomowanie…
+Funkcja AI
+Detekcja AI
+Włącz wykrywanie nieprawidłowości podczas drukowania.
+Częstotliwość detekcji
+Regularna detekcja
+Zaawansowana detekcja
+Wstrzymaj drukowanie w przypadku nieprawidłowości.
+Regularna detekcja wykryła zauważalne problemy.
+Wykrywanie wysokiej częstotliwości dla drobnych problemów.
+Offset osi Z
+Tę operację można wykonać tylko podczas drukowania.
+Już osiągnięto wartość maksymalną.
+Już osiągnięto wartość minimalną.
+Odczytywanie plików…
+Trwa synchronizacja danych
+Nieprawidłowe hasło
+Połączenie nie powiodło się
+Eksportowanie wideo...
+Ta operacja nie jest dozwolona podczas drukowania
+Eksport zakończony.
+Upewnij się, że blok do automatycznego cięcia jest zainstalowany. Jeśli nie, nie będzie można obciąć filamentu. W takim przypadku proszę ręcznie przesunąć nóż głowicy drukującej.
+Ekstruder
+Opcje przywracania
+Logi
+Wideo z fotografii poklatkowej
+Plik G-code
+Logi druku i pliki poklatkowe
+Potwierdzić wykonanie kształtowania drgań wejściowych?
+Wykryto nieprawidłowość głowicy drukującej. Proszę sprawdzić połączenia między płytą główną a płytą głowicy.
+Wykryto nieprawidłowość czujnika. Proszę sprawdzić połączenia między płytą główną a czujnikiem.
+Zatrzymaj
+Zatrzymaj
+Pauza
+Pomiń
+Wykryto pozostałości na stole roboczym.
+Wykryto awarię typu "spaghetti". Proszę sprawdzić stan drukowania i odpowiednio rozwiązać problem.
+Wykryto "spaghetti". Proszę sprawdzić stan drukowania.
+Proszę nagrzać dyszę powyżej 170℃.
+Proszę potwierdzić, że blok noża do filamentu został usunięty.
+Kamera AI
+Wykryto nową wersję
+Drukarka wykonuje inną operację.
+Funkcja AI (optymalizacja...)
+Aktualizacja nie powiodła się. Słaby sygnał sieci lub problem z okablowaniem kamery.
+Wysokie temperatury w komorze mogą powodować zmiękczanie filamentów i prowadzić do zatkania ekstrudera. Zaleca się drukowanie z otwartą pokrywą lub drzwiami.
+Błąd układu akcelerometru.
+Błąd układu akcelerometru.
+Wykryto przerwanie poprzedniej aktualizacji. Przywracanie poprzedniej aktualizacji... proszę czekać.
+Nie w trybie drukowania. Operacja niedozwolona.
+Błąd samokontroli. Proszę skontaktować się z obsługą klienta.
+Detekcja AI zostanie zatrzymana po wyłączeniu świateł. Kontynuować?
+Wykrywanie obcych obiektów
+Proszę sprawdzić, czy połączenie z kamerą działa.
+Układ czujnika poziomowania nieprawidłowy, czujnik uszkodzony lub pod wpływem środowiska.
+Drukarka używa czujnika, który dotyka stołu grzewczego, aby zmierzyć poziom całego stołu. Na podstawie tych pomiarów stosowana jest kompensacja poziomowania stołu podczas drukowania, aby uzyskać lepsze rezultaty pierwszej warstwy.
+Kontynuuj wytłaczanie
+Poziomowanie zakończone!
+Opcje stołu roboczego
+Teksturowany stół roboczy (Strona A)
+Gładki stół roboczy (Strona B)
+Dwie strony płyty drukującej, A i B, są różne. Strona B jest klejąca, a strona A ułatwia zdejmowanie modeli. W przypadku modeli dużego rozmiaru najpierw wybierz stronę B, aby zapewnić efekt pierwszej warstwy i poprawić wskaźnik sukcesu.
+Wybranemu stołowi roboczemu brakuje danych siatki stołu. Wypoziomować stół przed drukowaniem?
+Anuluj
+Wykrywanie obcych obiektów
+Wypoziomuj stół po wybraniu płyty.
+Błąd zbierania danych czujnika poziomowania.
+Platforma jest nadmiernie nachylona, czujnik uszkodzony lub pod wpływem środowiska.
+Przywracanie...
+Pomiń
+Gładki stół roboczy (Strona B)
+Około 20 min
+Zmiany w platformie drukującej (wymiana, starzenie, \nkonserwacja) mogą spowodować pewne przesunięcie osi Z. \nMożna dokonać niewielkich regulacji w górę lub w dół zgodnie z \nobecną sytuacją pierwszej warstwy.
+Czy zapisać tę wartość offsetu, a następnie wyzerować ją.
+Logi druku i pliki poklatkowe
+Kontrola natężenia przepływu powietrza
+Błąd połączenia z kamerą, generowanie poklatkowe nie powiodło się
+Odzyskiwanie po wykryciu zatkania...
+Wykryto możliwe zatkanie dyszy lub splątanie filamentu. Proszę sprawdzić stan maszyny.
+filament
+-
+-
+-
+-
+filament
+1/1
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
