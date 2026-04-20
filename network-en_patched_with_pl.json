@@ -1,0 +1,196 @@
+{
+  "networkDeviceManager": {
+    "error": {
+      "webRtc": "Połączenie zostało przerwane, spróbuj ponownie",
+      "webLinkError": "Osiągnięto maksymalną liczbę połączeń"
+    },
+    "menu": {
+      "control": "Sterowanie",
+      "monitor": "Monitoring",
+      "localFiles": "Pliki lokalne",
+      "printHistory": "Historia wydruków"
+    },
+    "header": {
+      "store": "SKLEP ELEGOO",
+      "storeUrl": "https://www.elegoo.com"
+    },
+    "control": {
+      "empty": "Brak plików",
+      "speedList": [{
+        "name": "Cichy",
+        "value": 50
+      }, {
+        "name": "Zbalansowany",
+        "value": 100
+      }, {
+        "name": "Sportowy",
+        "value": 130
+      }, {
+        "name": "Ekstremalny",
+        "value": 160
+      }],
+      "fileName": "Plik:",
+      "layerName": "Warstwa:",
+      "conductTime": "Czas trwania:",
+      "surplusTime": "Pozostały czas:",
+      "printerName": "Nazwa urządzenia:",
+      "file": "Plik",
+      "startPrinter": "Rozpocznij druk",
+      "deleteFile": "Usuń plik",
+      "addX": "X+",
+      "reduceX": "X-",
+      "addY": "Y+",
+      "reduceY": "Y-",
+      "addZ": "Z↑",
+      "reduceZ": "Z↓",
+      "ip": "IP urządzenia:",
+      "axisSuccess": "Zmiana zakończona powodzeniem",
+      "axisFail": "Zmiana nie powiodła się",
+      "confirm": "Potwierdź",
+      "axisError": {
+        "1": "Maszyna jest zajęta",
+        "2": "Błąd parametrów",
+        "3": "Najpierw wykonaj bazowanie osi",
+        "4": "Bazowanie nie powiodło się",
+        "5": "Bazowanie nie powiodło się"
+      },
+      "printerSpeed": "Prędkość druku",
+      "fan": "Wentylator",
+      "lighting": "Oświetlenie",
+      "temperature": "Temperatura",
+      "name": "Nazwa",
+      "currentTarget": "Aktualna / Docelowa",
+      "sprayNozzle": "Dysza",
+      "hotBed": "Stół grzewczy",
+      "box": "Komora",
+      "tipTitle": "Potwierdź temperaturę",
+      "sprayNozzleTip": "Ustawić temperaturę dyszy na {{temperature}}°C?",
+      "hotBedTip": "Ustawić temperaturę stołu na {{temperature}}°C?",
+      "boxTip": "Ustawić temperaturę komory na {{temperature}}°C?",
+      "printerTime": "Czas druku:",
+      "residuePrinterTime": "Pozostały czas druku:",
+      "currentLayer": "Postęp warstw:",
+      "zoreSuccess": "Polecenie bazowania wysłane",
+      "zoreFail": "Błąd wysyłania polecenia bazowania",
+      "allSelect": "Zaznacz wszystko",
+      "reprint": "Drukuj ponownie",
+      "export": "Eksportuj",
+      "delete": "Usuń",
+      "linkFail": "Błąd połączenia",
+      "rename": "Zmień nazwę",
+      "printerBtn": "Drukuj",
+      "fileSuccess": "Zapisano pomyślnie",
+      "fileFail": "Nieprawidłowy typ pliku",
+      "history": {
+        "title": "Historia wydruków",
+        "fileName": "Nazwa pliku",
+        "status": "Status",
+        "endTime": "Czas zakończenia",
+        "startTime": "Czas rozpoczęcia",
+        "totalUse": "Zużycie materiału",
+        "fileSize": "Rozmiar pliku",
+        "complete": "Zakończono",
+        "cancle": "Anuluj",
+        "toolTitle": "Usuń wpis",
+        "deleteBody": "Usunąć wpis historii dla {{fileName}}?",
+        "exportFail": "Nie znaleziono pliku"
+      },
+      "localFile": {
+        "title": "Pliki lokalne urządzenia",
+        "fileName": "Nazwa pliku",
+        "fileSize": "Rozmiar pliku",
+        "layerHeight": "Liczba warstw",
+        "totalLayers": "Wysokość warstwy",
+        "createTime": "Czas utworzenia",
+        "useLength": "Zużycie filamentu",
+        "toolTitle": "Usuń plik",
+        "deleteBody": "Usunąć plik {{fileName}}?",
+        "deleteSuccess": "Usunięto pomyślnie",
+        "deleteFail": "Usuwanie nie powiodło się",
+        "export": "Importuj",
+        "getDetailAck": {
+          "1": "Błąd parametrów",
+          "2": "Nie znaleziono pliku"
+        }
+      },
+      "videoList": {
+        "title": "Lista nagrań",
+        "tableFileName": "Nazwa pliku",
+        "tableFileSize": "Rozmiar pliku",
+        "tableCreateTime": "Data utworzenia",
+        "tableVideoDuration": "Długość nagrania",
+        "exportError": "Eksport timelapse nie powiódł się, spróbuj później"
+      },
+      "taskModal": {
+        "title": "Wyślij zadanie druku",
+        "sendButton": "Wyślij",
+        "hotBedLeveling": "Poziomowanie stołu",
+        "videoSurveillance": "Timelapse",
+        "texture": "Płyta teksturowana (strona A)",
+        "light": "Gładka płyta (strona B)"
+      },
+      "fanModal": {
+        "title": "Sterowanie wentylatorami",
+        "modal": "Model",
+        "auxiliary": "Wentylator boczny",
+        "box": "Komora"
+      },
+      "lightModal": {
+        "title": "Sterowanie LED",
+        "led1": "Oświetlenie modelu",
+        "led2": "Oświetlenie"
+      },
+      "editNameModal": {
+        "editPrinterTitle": "Zmień nazwę urządzenia",
+        "editFileTitle": "Zmień nazwę pliku",
+        "printerName": "Nazwa urządzenia",
+        "fileName": "Nazwa pliku",
+        "cancle": "Anuluj",
+        "edit": "Zmień"
+      },
+      "printer": {
+        "0": "Druk rozpoczęty",
+        "1": "Urządzenie zajęte",
+        "2": "Nie znaleziono pliku, odśwież stronę",
+        "3": "Błąd weryfikacji MD5",
+        "4": "Błąd odczytu pliku",
+        "5": "Nieprawidłowa rozdzielczość",
+        "6": "Nieprawidłowy format",
+        "7": "Nieprawidłowy model"
+      },
+      "status": {
+        "wait": "Bezczynny",
+        "loading": "Przygotowanie",
+        "zeroing": "Bazowanie",
+        "print": "Drukowanie",
+        "suspending": "Wstrzymywanie",
+        "suspended": "Wstrzymany",
+        "stoping": "Zatrzymywanie",
+        "stoped": "Zatrzymany",
+        "busy": "Zajęty",
+        "leveling": "Poziomowanie",
+        "complete": "Druk zakończony",
+        "sendFile": "Wysyłanie pliku",
+        "fileDetection": "Sprawdzanie pliku",
+        "recovery": "Wznawianie",
+        "vibration": "Kompensacja drgań…",
+        "advance": "Podawanie / wycofywanie filamentu",
+        "pidDetect": "Strojenie PID dyszy...",
+        "continueSuccess": "Wysłano polecenie wznowienia",
+        "continueFail": "Nie udało się wznowić druku",
+        "stopSuccess": "Wysłano polecenie pauzy",
+        "stopFail": "Nie udało się wstrzymać",
+        "ceaseSuccess": "Wysłano polecenie zatrzymania",
+        "ceaseFail": "Nie udało się zatrzymać"
+      },
+      "blackout": "Wykryto niedokończony wydruk",
+      "resumePrint": "Wznów druk",
+      "cancleResume": "Anuluj",
+      "errorStatusReason": {
+        "45": "Kończy się filament, wymień materiał"
+      }
+    },
+    "localTitle": "Lokalne zadania druku",
+    "historyTitle": "Historia wydruków"
+  }
+}
